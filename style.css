@@ -32,7 +32,7 @@ body{
 i{
     color: #e4d50d;
     transform: scale(1.2);
-    padding: 5px;
+    padding: 6px;
 }
 
 .ball{
@@ -43,10 +43,14 @@ i{
     position: absolute;
     top: 2px;
     left: 2px;
-    transition: all ease 200ms;
+    transition: all ease 400ms;
 }
 
 .move{
-    left: 30px;
+    left: 32px;
+}
+
+.change{
+    background: #b5838d;
 }
 
